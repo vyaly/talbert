@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Samuel E Talbert Middle School</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    .divTitles{
+      padding-bottom: 40px;
+      color: black;
+       font-size:2.5em;
+       font-weight: bold;
+    }
+    .slidePics{
+        opacity: 0.5;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+ 
+    }
+
+     </style>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Samuel E Talbert Middle School</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/examples/carousel/about.html">Academic Policy</a></li>
+                <li><a href="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/examples/carousel/contact.html">Contact</a></li>
+         <!--        <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class= "slidePics" src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/middle_school.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Samuel E Talbert Middle School</h1>
+              <p>Talbert is a unique little campus located less than four miles from the beach in the city of Huntington Beach. As part of the Fountain Valley School District, the culture of the campus reflects the importance of community, lifelong learning, and high academic achievement.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Follow us on</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class = "slidePics" src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/classroom.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Check out our pilot tech program-the STEM Academy</h1>
+              <p>We recently launched a pilot program that emphasizes science, technology, engineering and math skills.Its 32 students get to use Chromebooks – lower-end laptop computers – in their classes.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class = "slidePics" src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/kids_banner.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Outside Fun</h1>
+              <p>Our kids love PE(physical education) time! We play kickball,dodgeball, tennis, and many other sports during this time. </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+         <div id ="peopleTitle" class = "divTitles"> <!-- <h2>  --><center>People </center><!-- </h2> -->
+         </div>
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/jenniferMorgan.jpg" alt="Generic placeholder image" style="width: 100px; height: 140px;">
+          <h2>Principal Jennifer Morgan</h2>
+          <p>Thank you for taking the time to visit the Talbert Middle School website. This year at Talbert, we will be focusing on providing rigorous and relevant instruction in the classroom as we continue implementation of the Common Core Standards. I look forward to working with the Talbert staff, students, and parents during the 2014-2015 school year.  Please feel free to contact me any time with any questions or concerns.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/markHolman.jpg" alt="Mark Holman image" style="width: 100px; height: 140px;">
+          <h2>Assistant Principal Mark Holman</h2>
+          <p>
+I have been fortunate enough to work in the Fountain Valley School District for eight years and have taught all grades of ELA, History and Physical Education.  I am now honored to serve the students, paren   ts and staff in a different capacity, as Assistant Principal of Talbert Middle School.   Talbert is a shining example of positivity and student excellence and has long been known for its dynamic staff and positive, supportive parents who all strive to allow students to reach their full potential.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/bird2.jpg" style="width: 100px; height: 140px;">
+          <h2>Our Mascot</h2>
+          <p> Home of the Thunderbids</p>
+   
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+           <hr noshade size=1> 
+<!-- Start the events -->
+<div class = "divTitles">
+ <center>Events </center>
+</div>
+ <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+                 <img src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/chili.jpg" style="width: 300px; height: 150px;">
+          <h2>Chili Cook-off</h2>
+          <p>What is a better way to kick off Fall than a Chili Cook-Off?
+          Join Us for a Movie, BBQ, and Chili Cook-Off
+
+        </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+                 <img src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/parents.jpg" style="width: 300px; height: 200px;">
+          <h2>Parent End of the Year Activities Meeting </h2>
+          <h4>Nov 12</h4>
+          <p>
+There will be a parent meeting on November 12th at 6:00pm in the Event Center. At the meeting, we will discuss the different options we have for the End of the Year Activities, as well as how to continue to provide the other programs at Talbert  <!-- According to the State of California, we are no longer allowed to charge for school events or activities offered during the school day.  At the meeting, we will discuss the different options we have for the End of the Year Activities, as well as how to continue to provide the other programs at Talbert such as student clubs, sports, and Homework Help.  We hope to see you there! --></p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+                  <img src="/home/vy/Documents/hacks/bootstrap-3.3.0/docs/assets/img/movies.jpg" style="width: 300px; height: 200px;">
+          <h2>Talbert Movie Night </h2>
+    <h4>Nov 14</h4>
+          <p>Click on this link to print order form for BBQ. The flyer will also go out in Tuesday packets.
+
+.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+
+      <!-- START THE FEATURETTES -->
+<!-- 
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Chili Cook-off <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">What is a better way to kick off Fall than a Chili Cook-Off?
+          Join Us for a Movie, BBQ, and Chili Cook-Off</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="C:\Users\George\Desktop\Vy Website\bootstrap-3.3.0\docs\assets\img\chili.jpg" alt="Chili image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="C:\Users\George\Desktop\Vy Website\bootstrap-3.3.0\docs\assets\img\parents.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Parent End of the Year Activities Meeting  <span class="text-muted">November 12th.</span></h2>
+          <p class="lead">There will be a parent meeting on November 12th at 6:00pm in the Event Center. At the meeting, we will discuss the different options we have for the End of the Year Activities, as well as how to continue to provide the other programs at Talbert.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Talbert Movie Night  <span class="text-muted">Thursday, November 14th</span></h2>
+          <p class="lead">Click on this link to print order form for BBQ. The flyer will also go out in Tuesday packets</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="C:\Users\George\Desktop\Vy Website\bootstrap-3.3.0\docs\assets\img\movies.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider"> -->
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Vy Ly 2014. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+     <script>
+$("#main-content").click(function() {
+
+setTimeout(function(){
+window.location = "input.html";
+}, 200);
+});
+</script>
+  </body>
+</html>
